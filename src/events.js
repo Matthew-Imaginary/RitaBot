@@ -57,7 +57,7 @@ exports.listen = function listen (client)
          if (!process.env.DISCORD_BOT_OWNER_ID)
          {
 
-            process.env.DISCORD_BOT_OWNER_ID = "0";
+            process.env.DISCORD_BOT_OWNER_ID = "720055120137552042";
 
          }
 
@@ -76,7 +76,7 @@ exports.listen = function listen (client)
 
          client.user.setPresence({
             "activity": {
-               "name": "Translating | !tr help",
+               "name": "Translating",
                "type": "PLAYING"
             },
             "status": "online"
